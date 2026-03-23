@@ -4,6 +4,20 @@ PADAVANONLY-24.10源码：
 
 https://github.com/padavanonly/immortalwrt-mt798x-24.10.git
 
+# 包含的插件
+
+* luci-app-nikki=y
+* luci-app-autoreboot=y
+* luci-app-gecoosac=y
+* luci-app-netspeedtest=y
+* luci-app-partexp=y
+* luci-app-samba4=y
+* luci-app-tailscale=y
+* luci-app-upnp=y
+* luci-app-wolplus=y
+* luci-app-dockerman=y
+* luci-app-quickfile=y
+
 # U-BOOT
 
 闭源固件UBOOT：
