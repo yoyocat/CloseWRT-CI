@@ -113,7 +113,6 @@ jobs:
 
       - name: Check Scripts
         run: |
-          sed -i 's/# CONFIG_VETH is not set/CONFIG_VETH=m/' wrt/target/linux/generic/config-6.6
           find ./ -maxdepth 3 -type f -iregex ".*\(txt\|sh\)$" -exec dos2unix {} \; -exec chmod +x {} \;
 
       - name: Check Caches
